@@ -10,7 +10,7 @@ La hipótesis, derivada del plan de descontaminación del Lago Villarrica, fue q
 - Praderas y cultivos ocupan el 22,5% de la superficie de suelo, pero concentran el 95,5% de la pérdida total estimada (83.045 t año⁻¹). La hipótesis se apoya para estas coberturas, pero no para las plantaciones forestales ni para la franja de 500 m junto al agua.
 - Según el umbral de tolerancia adoptado, entre el 6,7% del suelo (máximo tolerable nacional, 12,36 t ha⁻¹ año⁻¹) y el 21,4% (tasa de formación de suelo, 2 t ha⁻¹ año⁻¹) supera la pérdida tolerable.
 - Entre 2013-14 y 2023-24 la pérdida media aumentó apenas 0,019 t ha⁻¹ año⁻¹. Ese cambio no depende de los supuestos probados, pero el nivel absoluto de pérdida sí depende del valor de C asignado a las praderas.
-![Pérdida de suelo estimada con cobertura, 2023-24](resultados/figura2_perdida_2023_24_gee.png)
+![Pérdida de suelo estimada con cobertura, 2023-24](resultados/cartografias/figura2_perdida_2023_24_gee.png)
  
 ## Contenido del repositorio
  
