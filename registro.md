@@ -1,6 +1,8 @@
 # Registro del trabajo
 
-Este documento reúne lo que no cabe en el informe. Explica cada decisión metodológica, las ideas que se probaron y se descartaron, el análisis complementario completo y las limitaciones con su consecuencia. Las tablas del informe y sus anexos son un resumen de lo que aparece aquí.
+Este documento reúne lo que no cabe en el informe. Explica cada decisión metodológica, las ideas que se probaron y se descartaron, el análisis complementario completo y las limitaciones con su consecuencia. Las tablas del informe y sus anexos son un resumen de lo que aparece aquí. Hay una versión resumida en el anexo del informe. 
+
+Inicialmente fue un Claude Docs, donde le decía a la IA mis ideas, cambios en el código, decisiones, justificaciones, resultados, etc. para que fuese completando el documento. Al final de cada sesión le decía a claude "actualiza el registro" para así no perder información ni reproducibilidad. 
 
 ## 1. Decisiones metodológicas
 
@@ -46,9 +48,9 @@ El bosque usa el mínimo de su rango porque su dosel denso cubre el suelo. La pa
 
 | Idea inicial | Por qué se cambió | Qué la reemplazó |
 | --- | --- | --- |
-| Cambiar K en la Etapa 2 | La profesora orientó a recalcular C con NDVI | C con NDVI. Stolpe (2005) y Bonilla y Johnson (2012) quedaron para discutir la incertidumbre de K |
+| Cambiar K en la Etapa 2 | Se optó por cambiar C con NDVI, después descubrí Mapbiomas y lo sumé al trabajo | C con NDVI. Stolpe (2005) y Bonilla y Johnson (2012) quedaron para discutir la incertidumbre de K |
 | Calcular el escenario con R, K, L, S, C y P propios | Cambiaría cuatro o más factores respecto de CIREN | A = RUSLE de CIREN × C |
-| Factor P con coberturas de MODIS | Sería un segundo cambio | P = 1 |
+| Factor P con coberturas de MODIS | Sin practicas actuales, si planeadas, pero nada en ejecución | P = 1 |
 | Asignar P menor que 1 según el plan de descontaminación | Son medidas futuras, el registro de fertilizantes no cambia la pérdida de suelo y la restauración ribereña actúa sobre la entrega del sedimento | P = 1, con la mención de que prácticas futuras reducirían P |
 | Capa `r09_033_rea_1ha` como base | Era la capa actual, no la potencial | `r09_033_rep_1ha` |
 | Leer la capa directamente del servidor de CIREN | El servidor falló varias veces | Copia en GeoPackage en Drive |
