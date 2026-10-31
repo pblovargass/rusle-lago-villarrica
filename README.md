@@ -16,8 +16,8 @@ La hipótesis, derivada del plan de descontaminación del Lago Villarrica, fue q
  
 | Archivo o carpeta | Contenido |
 | --- | --- |
-| [`informe.pdf`](informe_RUSLE.pdf) | Informe entregado, con anexos |
-| [`Trabajo_RUSLE.ipynb`](Trabajo_RUSLE_LV.ipynb) | Notebook de Google Earth Engine (Python) |
+| [`Informe RUSLE.pdf`](informe RUSLE.pdf) | Informe entregado, con anexos |
+| [`Trabajo_RUSLE_LV.ipynb`](Trabajo_RUSLE_LV.ipynb) | Notebook de Google Earth Engine (Python) |
 | [`datos/`](datos/) | Capas de pérdida potencial y actual de CIREN para la cuenca (GeoPackage) |
 | [`resultados/`](resultados/) | Mapas (PNG), tablas (CSV) y capas exportadas desde GEE (GeoTIFF) |
 | [`registro.md`](registro.md) | Decisiones metodológicas, ideas descartadas, análisis complementario y limitaciones |
